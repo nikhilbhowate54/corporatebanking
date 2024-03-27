@@ -20,7 +20,7 @@ const user = {
 export function AccountInfo(): React.JSX.Element {
   return (
     <Card>
-      <CardContent>
+      {/* <CardContent>
         <Stack spacing={2} sx={{ alignItems: 'center' }}>
           <div>
             <Avatar src={user.avatar} sx={{ height: '80px', width: '80px' }} />
@@ -41,7 +41,7 @@ export function AccountInfo(): React.JSX.Element {
         <Button fullWidth variant="text">
           Upload picture
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 }
